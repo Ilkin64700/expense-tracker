@@ -1,0 +1,81 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: white;
+  .themebuttons {
+    .btnprimar {
+      border-radius: 10px 1px 0 10px;
+      background-color: lightgray;
+      color: white;
+      border-width: inherit;
+      transition: all 0.6s;
+
+      i {
+        padding-right: 4px;
+      }
+    }
+    .btnsecon {
+      margin-right: 10px;
+      border-radius: 1px 10px 10px 0;
+      background-color: lightgray;
+      border-width: inherit;
+      transition: all 0.6s;
+      i {
+        padding-right: 4px;
+        color: dodgerblue;
+      }
+    }
+  }
+}
+
+.light {
+  background-color: #F5F7FA;
+  transition: all 0.3s;
+  
+
+}
+
+.dark {
+  background-color: black;
+  transition: all 0.3s;
+  h5,label,p{
+    color: white;
+
+  }
+  .navbar{
+    background-color: #252525;
+  }
+  .balance{
+    .allcontent{
+      background-color: #252525; 
+    }
+    .row{
+      .wholetextcontent{
+        .leftaction{
+          background-color: #252525;
+          input{
+            background-color: black;
+            color: white;
+          }
+          textarea{
+            background-color: black;
+            color: white;
+          }
+        }
+        .righthistory{
+          background-color: #252525;
+        }
+      }
+    }
+  }
+ 
+}
+
+.active{
+  background-color: blue !important;
+  // transition: all 1s;
+}

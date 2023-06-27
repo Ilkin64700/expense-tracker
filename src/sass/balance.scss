@@ -1,0 +1,171 @@
+.balance {
+  .allcontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 20px 20px 0 20px;
+    border-radius: 8px;
+    height: 64px;
+    .balanceheader {
+      color: dodgerblue;
+      margin-left: 15px;
+      font-size: 20px;
+      font-weight: 700;
+      i {
+        font-size: 20px;
+        padding-right: 5px;
+      }
+    }
+    .editmoney {
+      margin-right: 5rem;
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      .dropdown {
+        .dropdown-button {
+        }
+        .dropdown-content {
+          position: absolute;
+          top: 40px;
+          left: -160px;
+          background-color: #fff;
+          box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+          width: 200px;
+          height: 150px;
+          border-radius: 10px;
+          margin-top: 5px;
+          cursor: pointer;
+          .dropdown-item {
+            padding-top: 12px;
+            padding-left: 15px;
+            height: 50px;
+            .btn {
+              padding: 10px 14px;
+            }
+            i {
+              padding-left: 70px;
+              font-size: 20px;
+              color: green;
+            }
+            &:hover {
+              background-color: #dbf5e4;
+            }
+          }
+        }
+      }
+      .btn {
+        border-radius: 25px;
+        margin-right: 8px;
+      }
+      input {
+        border: none;
+        width: 100px;
+        color: dodgerblue;
+        font-weight: 700;
+      }
+      select {
+        appearance: none;
+        option {
+          background-color: white;
+          color: black;
+        }
+      }
+    }
+  }
+  .wholetextcontent {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .leftaction {
+      text-align: left;
+      padding: 20px 20px;
+      margin: 0 15px;
+      border-radius: 10px;
+      background-color: white;
+      height: 650px;
+      width: 35%;
+      h5 {
+        margin-bottom: 30px;
+      }
+      label {
+        width: 100%;
+        font-weight: 500;
+        margin-bottom: 5px;
+      }
+      input {
+        border-radius: 5px;
+        width: 100%;
+        background-color: #f5f7fa;
+        border: none;
+        margin-bottom: 30px;
+        height: 50px;
+      }
+      textarea {
+        border-radius: 5px;
+        background-color: #f5f7fa;
+        border: none;
+        margin-bottom: 30px;
+        width: 100%;
+      }
+      .twobuttons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        button {
+          width: 45%;
+        }
+        .btn-success {
+          background-color: #30ce0a;
+          border-color: #30ce0a;
+        }
+      }
+    }
+    .righthistory {
+      text-align: left;
+      padding: 20px 20px;
+      margin: 0 15px;
+      border-radius: 10px;
+      min-height: 390px;
+      height: 650px;
+      background-color: white;
+      width: 65%;
+      h5 {
+        padding-bottom: 10px;
+      }
+      p {
+        .bi-check-circle-fill {
+          color: #30ce0a;
+          background-color: #dbf5e4;
+          padding: 8px;
+          border-radius: 20px;
+          margin-right: 5px;
+        }
+        .bi-x-circle {
+          color: red;
+          padding: 8px;
+          border-radius: 20px;
+          margin-right: 5px;
+          background: #ffdada;
+        }
+      }
+    }
+  }
+}
+
+// .nofocusanimation {
+//   animation: none;
+// }
+// .focusanimation {
+//   animation: inputslide 0.3s backwards;
+// }
+
+// @keyframes inputslide {
+//   from {
+//     transform: translateX(100%);
+//   }
+//   to {
+//     transform: translateX(0);
+//   }
+// }

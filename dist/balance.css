@@ -1,0 +1,149 @@
+.balance .allcontent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin: 20px 20px 0 20px;
+  border-radius: 8px;
+  height: 64px;
+}
+.balance .allcontent .balanceheader {
+  color: dodgerblue;
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.balance .allcontent .balanceheader i {
+  font-size: 20px;
+  padding-right: 5px;
+}
+.balance .allcontent .editmoney {
+  margin-right: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.balance .allcontent .editmoney .dropdown .dropdown-content {
+  position: absolute;
+  top: 40px;
+  left: -160px;
+  background-color: #fff;
+  box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.balance .allcontent .editmoney .dropdown .dropdown-content .dropdown-item {
+  padding-top: 12px;
+  padding-left: 15px;
+  height: 50px;
+}
+.balance .allcontent .editmoney .dropdown .dropdown-content .dropdown-item .btn {
+  padding: 10px 14px;
+}
+.balance .allcontent .editmoney .dropdown .dropdown-content .dropdown-item i {
+  padding-left: 70px;
+  font-size: 20px;
+  color: green;
+}
+.balance .allcontent .editmoney .dropdown .dropdown-content .dropdown-item:hover {
+  background-color: #dbf5e4;
+}
+.balance .allcontent .editmoney .btn {
+  border-radius: 25px;
+  margin-right: 8px;
+}
+.balance .allcontent .editmoney input {
+  border: none;
+  width: 100px;
+  color: dodgerblue;
+  font-weight: 700;
+}
+.balance .allcontent .editmoney select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.balance .allcontent .editmoney select option {
+  background-color: white;
+  color: black;
+}
+.balance .wholetextcontent {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.balance .wholetextcontent .leftaction {
+  text-align: left;
+  padding: 20px 20px;
+  margin: 0 15px;
+  border-radius: 10px;
+  background-color: white;
+  height: 650px;
+  width: 35%;
+}
+.balance .wholetextcontent .leftaction h5 {
+  margin-bottom: 30px;
+}
+.balance .wholetextcontent .leftaction label {
+  width: 100%;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.balance .wholetextcontent .leftaction input {
+  border-radius: 5px;
+  width: 100%;
+  background-color: #f5f7fa;
+  border: none;
+  margin-bottom: 30px;
+  height: 50px;
+}
+.balance .wholetextcontent .leftaction textarea {
+  border-radius: 5px;
+  background-color: #f5f7fa;
+  border: none;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.balance .wholetextcontent .leftaction .twobuttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.balance .wholetextcontent .leftaction .twobuttons button {
+  width: 45%;
+}
+.balance .wholetextcontent .leftaction .twobuttons .btn-success {
+  background-color: #30ce0a;
+  border-color: #30ce0a;
+}
+.balance .wholetextcontent .righthistory {
+  text-align: left;
+  padding: 20px 20px;
+  margin: 0 15px;
+  border-radius: 10px;
+  min-height: 390px;
+  height: 650px;
+  background-color: white;
+  width: 65%;
+}
+.balance .wholetextcontent .righthistory h5 {
+  padding-bottom: 10px;
+}
+.balance .wholetextcontent .righthistory p .bi-check-circle-fill {
+  color: #30ce0a;
+  background-color: #dbf5e4;
+  padding: 8px;
+  border-radius: 20px;
+  margin-right: 5px;
+}
+.balance .wholetextcontent .righthistory p .bi-x-circle {
+  color: red;
+  padding: 8px;
+  border-radius: 20px;
+  margin-right: 5px;
+  background: #ffdada;
+}/*# sourceMappingURL=balance.css.map */

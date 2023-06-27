@@ -1,0 +1,67 @@
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: white;
+}
+.navbar .themebuttons .btnprimar {
+  border-radius: 10px 1px 0 10px;
+  background-color: lightgray;
+  color: white;
+  border-width: inherit;
+  transition: all 0.6s;
+}
+.navbar .themebuttons .btnprimar i {
+  padding-right: 4px;
+}
+.navbar .themebuttons .btnsecon {
+  margin-right: 10px;
+  border-radius: 1px 10px 10px 0;
+  background-color: lightgray;
+  border-width: inherit;
+  transition: all 0.6s;
+}
+.navbar .themebuttons .btnsecon i {
+  padding-right: 4px;
+  color: dodgerblue;
+}
+
+.light {
+  background-color: #F5F7FA;
+  transition: all 0.3s;
+}
+
+.dark {
+  background-color: black;
+  transition: all 0.3s;
+}
+.dark h5, .dark label, .dark p {
+  color: white;
+}
+.dark .navbar {
+  background-color: #252525;
+}
+.dark .balance .allcontent {
+  background-color: #252525;
+}
+.dark .balance .row .wholetextcontent .leftaction {
+  background-color: #252525;
+}
+.dark .balance .row .wholetextcontent .leftaction input {
+  background-color: black;
+  color: white;
+}
+.dark .balance .row .wholetextcontent .leftaction textarea {
+  background-color: black;
+  color: white;
+}
+.dark .balance .row .wholetextcontent .righthistory {
+  background-color: #252525;
+}
+
+.active {
+  background-color: blue !important;
+}/*# sourceMappingURL=navbar.css.map */
